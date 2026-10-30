@@ -1,0 +1,6 @@
+{
+  "name": "PUJIHARJO SMART CLASS – KELAS V",
+  "description": "Satu Aplikasi untuk Pembelajaran, Administrasi, dan Pengembangan Kompetensi Siswa Kelas V SD Negeri 1 Pujiharjo Tahun Ajaran 2026/2027.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

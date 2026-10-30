@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply antialiased selection:bg-blue-500 selection:text-white;
+  }
+}
+
+@media print {
+  header,
+  aside,
+  footer,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .print-page-break {
+    page-break-before: always;
+  }
+}
